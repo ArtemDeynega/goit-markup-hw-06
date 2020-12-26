@@ -82,14 +82,46 @@
     </button>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore odio
-          harum officia, dolorem natus labore optio sequi voluptatibus tenetur
-          velit obcaecati. Quae nihil repudiandae magnam impedit molestiae,
-          doloribus, quasi distinctio commodi minima eum magni dicta voluptates
-          fuga maiores accusamus facilis?
-        </p>
-        <button data-modal-close>Закрыть</button>
+         <form class="form">
+          <button class="btn-close" data-modal-close>
+            <svg class="btn-close-icon" width="18" height="18">
+              <use href="./image/sprite.svg#close"></use>
+            </svg>
+          </button>
+          <p>Оставьте свои данные, мы вам перезвоним</p>
+          <div role="group" class="group">
+            <div class="form-field">
+            <label class="field-label" for="user-name">Имя</label>
+            <input class="field-input" type="text" name="user-name" id="user-name">
+          </div>
+          <div class="form-field">
+            <label class="field-label" for="tel">Телфон</label>
+            <input class="field-input" type="tel" name="tel" id="tel">
+          </div>
+          <div class="form-field">
+            <label class="field-label" for="email">Почта</label>
+            <input class="field-input" type="email" name="email" id="email">
+          </div>
+          
+          <div class="form-field">
+            <label class="field-label" for="comment">Комментарий</label>
+            <textarea class="field-input textarea" name="comment" id="comment" rows="8" placeholder="Введите текст"></textarea>
+          </div>
+          </div>
+          <div class="form-field">
+            
+            <div class="form-field box">
+              <label for="policy" class="field-label policy">
+              <input type="checkbox" name="policy" id="policy">
+              Cоглашаюсь с рассылкой и принимаю <a href="" class="contract">Условия договора</a> 
+            </label>
+            </div>
+            
+          </div>
+
+          <button type="submit" class="btn-submit">Отправить</button>
+        </form>
+       
       </div>
     </div>
           
@@ -424,21 +456,6 @@
 
 
     <script src="./js/modal.js"></script>
-
-<form>
-  <label> 
-    <input type="radio" name="color" value="red">
-    красный
-  </label>
-  <label> 
-    <input type="radio" name="color" value="green">
-    зеленый
-  </label>
-  <label> 
-    <input type="radio" name="color" value="blue">
-    синий
-  </label>
-</form>
 
 
 
