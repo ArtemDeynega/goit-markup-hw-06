@@ -891,6 +891,14 @@ textarea {
       
       
 }
+.footer-form input::placeholder {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0.03em;
+}
 
 /* ================= PORTFOLIO ========== */
 /* ==================== MAIN-NAV=============== */
