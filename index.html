@@ -101,6 +101,7 @@
             </span>
             
             
+            
           </div>
           <div class="form-field">
             <label class="field-label" for="tel">Телфон</label>
@@ -124,18 +125,19 @@
           </div>
           
           <div class="form-field">
-            <label class="field-label" for="comment">Комментарий</label>
-            <textarea class="field-input textarea" name="comment" id="comment" placeholder="Введите текст"></textarea>
+            <label class="field-label textarea" for="comment">Комментарий</label>
+            <textarea class="modal-form-message" name="comment" id="comment" placeholder="Введите текст"></textarea>
           </div>
           </div>
           <div class="form-field">
-            
-            <div class="form-field box">
-              <label for="policy" class="field-label policy">
-              <input type="checkbox" name="policy" value="accept-policy" id="policy">
-              Cоглашаюсь с рассылкой и принимаю <a href="" class="contract">Условия договора</a> 
-            </label>
+
+            <div class="form-field-policy">
+              <input class="input-policy visually-hidden" type="checkbox" name="policy" value="accept-policy" id="policy">
+              <label class="field-label-policy" for="policy" >Cоглашаюсь с рассылкой и принимаю<a href="" class="contract">Условия договора</a>
+              </label>
             </div>
+            
+            
             
           </div>
 
